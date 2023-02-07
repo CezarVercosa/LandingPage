@@ -1,0 +1,556 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    margin: 0px;
+}
+img{
+    max-width: 100%;
+}
+.container{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1180px;
+}
+.second-section{
+    width: 100%;
+    height: 629px;
+    background: url(../../img/image1.jpg);
+}
+.banner-container{
+    position: relative;
+}
+.img-banner{
+    width: 100%;
+}
+.banner-container::before {
+    content: "";
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #515070;
+}
+.banner-title{
+    position: absolute;
+    top: 190px;
+    left: 0;
+    height: 10%;
+    width: 100%;
+}
+.banner-description{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    top: 300px;
+    
+}
+.h1-banner{
+    color: #fff;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+}
+.h2-banner{
+    margin: 0px;
+    color: #fff;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+}
+.button-content{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 100%;
+    top: 400px;
+}
+.buttons-camps{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 165px;
+    height: 60px;
+    background: #FF8E6E;
+}
+.buttons-camps h1{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
+.seta-button{
+    margin: 0px 5px;
+}
+.sizes{
+    display: flex;
+    align-items: center;
+}
+.section-about{
+    width: 100%;
+    height: 688px;
+    display: flex;
+}
+.left-size{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.comment-titles{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    color: #515070;
+}
+.titles{
+    display: flex;
+    align-items: center;
+    width: 383px;
+    height: 59px;
+    margin: 0;
+}
+.titles h1{ 
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    color: #FF8E6E;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 165px;
+    height: 60px;
+    background: #515070;
+}
+.buttons h1{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
+.comments{
+    width: 493px;
+    height: 134px;
+    margin: 15px 0px;
+    display: flex;
+    align-items: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 29px;
+    color: #898989;
+}
+.right-size{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.three-section{
+    background: url(../../img/image3.jpg);
+    width: 100%;
+    height: 629px;
+}
+
+.title-three-section{
+    position: absolute;
+    top: -80px;
+    color: #fff;
+}
+.description-three{
+    color: #fff;
+    font-family: 'Open Sans';
+    top: 250px;
+    margin: 80px 0px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 29px;
+}
+.button-three{
+    top: 440px;
+}
+.section-depoiment{
+    background: #F6F6F6;
+}
+.size-depoiment{
+    width: 100%;
+}
+.depoiment-boxs{
+    display: flex;
+    justify-content: space-between;
+}
+.title-depoiment{
+    margin: 0px 0px 15px 0px;
+}
+.depoiment-box{
+    width: 580px;
+    height: 217px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    background: #ffff;
+}
+.icon-name-box{
+    display: flex;
+}
+.name-date-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.name{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 0;
+    color: #515070;
+}
+.date{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    margin: 0;
+    color: #FF8E6E;
+}
+.comments-depoiment{
+    margin: 0px 15px;
+    width: 496px;
+    height: 88px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 29px;
+    color: #898989;
+}
+.comments-depoiment p{
+    margin: 0;
+}
+.user-icon{
+    margin: 0px 15px;
+}
+.section-function{
+    width: 100%;
+    height: 688px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(105.92deg, #515070 -8.44%, #6B69B0 94.86%);
+}
+.top-size{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+}
+.title-function{
+    width: 415px;
+    height: 59px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    color: #FF8E6E;
+}
+.title-function p{
+    margin: 0;
+}
+.bottom-size{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+.headset-icon{
+    margin: 0px 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    width: 337px;
+    height: 138px;
+}
+.card{
+    display: flex;
+    align-items: center;
+    margin: 50px 0px;
+}
+.box-title-card{
+    width: 208px;
+    height: 22px;
+}
+.box-comments-card{
+    width: 243px;
+    height: 66px;
+}
+.title-card{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.comment-card{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.phone-box{
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    width: 330px;
+    height: 512px;
+    margin-left: 40px;
+}
+.mediareverse{
+    display: flex;
+    width: 900px;
+    justify-content: space-around;
+}
+.menu-box{
+    display: flex;
+    position: absolute;
+    left: 13px;
+    margin: 0px 20px;
+}
+.section-contact{
+    background: #F6F6F6;
+}
+.sizes-contact{
+    display: flex;
+    flex-direction: row-reverse;
+}
+@media (max-width: 720px){
+    .container{
+        max-width: 600px;
+    }
+    .second-section{
+        height: 760px;
+    }
+    .section-about{
+        height: 760px;
+    }
+    .comment-titles{
+        display: flex;
+        margin: 20px 0px 0px 0px;
+    }
+    .about-h2{
+        justify-content: flex-start;
+    }
+    .titles h1{
+        margin: 0;
+    }
+    .right-size{
+        margin: 0px;
+    }
+    .sizes{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .left-size{
+        width: 100%;
+    }
+    .section-depoiment{
+        flex-direction: column;
+        height: 960px;
+    }
+    .container h1{
+        margin: 0px;
+    }
+    .bottom-size{
+        flex-direction: column;
+        align-items: center;
+    }
+    .mediareverse{
+        align-items: flex-end;
+        flex-direction: column-reverse;
+        width: 330px;
+    }
+    .card-final{
+        margin-top: 100px;
+        padding-left: 8px;
+    }
+    .phone-box{
+        margin-top: 120px;
+        
+    }
+    .section-function{
+        height: 1100px;
+    }
+    .top-size{
+        height: 150px;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        width: 337px;
+        height: 138px;
+        margin: 0px;
+    }
+    .menu-phone{
+        left: 228px;
+    }
+    
+    .title-depoiment{
+        width: auto;
+        justify-content: center;
+    }
+    .depoiment-boxs{
+        flex-direction: column;
+        align-items: center;
+    }
+    .depoiment-box{
+        height: 324px;
+        align-items: center;
+        margin: 20px 0px;
+    }
+    .icon-name-box{
+        flex-direction: column;
+        align-items: center;
+    }
+    .user-icon{
+        width: 80px;
+        height: 88px;
+    }
+    .name-date-box{
+        align-items: center;
+        margin: 15px 0px;
+    }
+    .comments-depoiment{
+        width: 318px;
+        height: 106px;
+        align-items: center;
+        font-size: 14px;
+    }
+    .section-contact{
+        height: 760px;
+    }
+    .sizes-contact{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .subtitle-depoiment{
+        justify-content: center;
+    }
+    .button-three {
+        margin-top: 20px;
+    }
+    
+}
+@media (max-width: 375px) {
+    .container{
+        max-width: 350px;
+    }
+    .second-section{
+        height: 760px;
+    }
+    .h1-banner{
+        font-size: 38px;
+    }
+    .banner-description{
+        margin: 30px 0px 0px 0px;
+        font-size: 18px;
+    }
+    .buttons-camps{
+        margin: 40px 0px 0px 0px;
+        background: #515070;
+    }
+    .right-size{
+        width: 334px;
+        height: 147px;
+    }
+    .about-h2{
+        margin: 50px 0px 0px 0px;
+    }
+    .about-h2 h2{
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .titles{
+        margin: 0px 0px 20px 0px;
+    }
+    .titles h1{
+        width: 256px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 39px;
+    }
+    .comments{
+        width: 330px;
+        margin: 0px 0px 30px 0px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 29px;
+    }
+    .three-section{
+        height: 760px;
+        background: url(../../img/background385.png);
+    }
+    .description-three{
+        margin: 80px 0px 0px 0px;
+    }
+    .depoiment-box{
+        max-width: 375px;
+    }
+    .comments-depoiment{
+        width: 318px;
+        justify-content: center;
+        align-items: center;
+    }
+    .title-function p{
+        display: flex;
+        justify-content: center;
+        font-size: 32px;
+    }
+    .top-size{
+        width: 375px;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}

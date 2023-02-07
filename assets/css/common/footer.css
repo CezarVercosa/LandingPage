@@ -1,0 +1,101 @@
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 187px;
+}
+.footer-logo-container{
+    display: flex;
+    
+}
+.footer-image-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    background: #515070;
+    margin-right: 10px;
+}
+.footer-titles h1{
+    font-size: 13px;
+    color: #515070;;
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+.footer-about-container{
+    display: flex;
+}
+
+.footer-ul-container{
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    
+}
+.footer-a-container{
+    margin: 30px 50px 0px 0px;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+.content-footer{
+    display: flex;
+    align-items: flex-end;
+    
+    justify-content: space-between;
+}
+.footer-cwi-title{
+    width: 80px;
+    height: 8px;
+}
+.footer-credit{
+    display: flex;
+    width: 434px;
+    height: 29px;
+}
+.footer-credit p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 29px;
+    color: #898989;
+    margin: 0px;
+}
+@media (max-width: 720px){
+    
+    .footer-about-container{
+        display: none;
+    }
+    .footer-cwi-title{
+        display: none;
+    }
+    .footer-container{
+        flex-direction: row;
+        height: 69px;
+        justify-content: space-between;
+    }
+    .content-footer{
+        align-items: center;
+    }
+    .footer-credit{
+        width: 378px;
+        justify-content: flex-end;
+    }
+    .credits{
+        display: none;
+    }
+}
+@media (max-width: 375px){
+    .footer-container{
+        max-width: 375px;
+    }
+    .footer-credit{
+        width: 189px;
+        justify-content: flex-start;
+    }
+    .footer-credit p{
+        font-size: 12px;
+    }
+}
